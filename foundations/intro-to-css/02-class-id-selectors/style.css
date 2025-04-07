@@ -1,0 +1,19 @@
+.ancestor {
+    background-color:#ffb6c1;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.special{
+    font-size: 24px;
+}
+
+#id1 {
+    font-size: 36px;
+    color: #00f;
+}
+
+#id2 {
+    font-size: 24px;
+    background-color: #90ee90;
+    font-weight: bold;
+}
