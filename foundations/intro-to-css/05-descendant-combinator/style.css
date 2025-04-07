@@ -1,0 +1,34 @@
+
+/*Option 1 with class selectors in decendent combinator
+/*
+.container .text {
+    background-color: rgb(255,255,0);
+    color: rgb(255,0,0);
+    font-size: 20px;
+    text-align: center;
+} 
+*/
+
+/*option 2 with type selectors in decendent combinator */
+/* div p {
+    background-color: rgb(255,255,0);
+    color: rgb(255,0,0);
+    font-size: 20px;
+    text-align: center;
+} */
+
+/*Option 3 mixing class and type selectors*/
+/* div .text {
+    background-color: rgb(255,255,0);
+    color: rgb(255,0,0);
+    font-size: 20px;
+    text-align: center;
+} */
+
+/*Option 4 same as above but reversed order*/
+.container p {
+    background-color: rgb(255,255,0);
+    color: rgb(255,0,0);
+    font-size: 20px;
+    text-align: center;
+}
